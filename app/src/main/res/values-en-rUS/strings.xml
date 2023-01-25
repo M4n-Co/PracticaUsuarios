@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">usuarios</string>
+    <string name="cvDes">cvDes</string>
+    <string name="Nombre">Predo Pascal</string>
+    <string name="Tel">Phone:</string>
+    <string name="Cel">Cell:</string>
+    <string name="b"><![CDATA[<]]></string>
+    <string name="pais">Country</string>
+    <string name="ciudad">City</string>
+    <string name="email">E-mail</string>
+    <string name="edad">Age</string>
+    <string name="titulo">User list</string>
+    <string name="tDetalles">User details</string>
+    <string name="aviso">Error, try again</string>
+</resources>

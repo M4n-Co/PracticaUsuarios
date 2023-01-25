@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listaUsuarios">
+
+    <fragment
+        android:id="@+id/listaUsuarios"
+        android:name="com.example.usuarios.listaUsuarios"
+        android:label="fragment_lista_usuarios"
+        tools:layout="@layout/fragment_lista_usuarios" >
+        <action
+            android:id="@+id/listUsToUser"
+            app:destination="@id/destallesUsuario" />
+    </fragment>
+    <fragment
+        android:id="@+id/destallesUsuario"
+        android:name="com.example.usuarios.destallesUsuario"
+        android:label="fragment_destalles_usuario"
+        tools:layout="@layout/fragment_destalles_usuario" >
+        <action
+            android:id="@+id/detalles_lista"
+            app:destination="@id/listaUsuarios" />
+    </fragment>
+</navigation>

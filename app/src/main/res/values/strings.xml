@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">usuarios</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cvDes">cvDes</string>
+
+    <string name="Nombre">Predo Pascal</string>
+    <string name="Tel">Tel:</string>
+    <string name="Cel">Cel:</string>
+
+    <string name="b"><![CDATA[<]]></string>
+
+    <string name="pais">País:</string>
+    <string name="ciudad">Ciudad:</string>
+    <string name="email">E-mail:</string>
+    <string name="edad">Edad:</string>
+
+    <string name="titulo">Lista de usuarios</string>
+    <string name="tDetalles">Detalles del usuarios</string>
+
+    <string name="aviso">Error, intente nuevamente</string>
+</resources>
