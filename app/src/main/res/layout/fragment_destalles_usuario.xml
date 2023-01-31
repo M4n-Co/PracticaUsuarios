@@ -42,19 +42,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvCelu" />
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/ivFoto"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvFoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:paddingStart="3dp"
-        android:paddingEnd="3dp"
-        android:src="@drawable/ic_launcher_background"
+        app:cardBackgroundColor="@color/varianteColorPrimario"
+        app:cardCornerRadius="100dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNombreCompleto"
-        tools:ignore="ImageContrastCheck" />
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreCompleto">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivFoto"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:src="@drawable/ic_launcher_background"
+            tools:ignore="ImageContrastCheck" />
+    </androidx.cardview.widget.CardView>
 
     <Button
         android:id="@+id/button"
@@ -92,7 +100,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivFoto" />
+        app:layout_constraintTop_toBottomOf="@+id/cvFoto" />
 
     <TextView
         android:id="@+id/tvTelef"

@@ -12,7 +12,7 @@ class userViewHolder(view: View):RecyclerView.ViewHolder(view) {
 
     fun bind(usuario : Results, onClickListener:(Results)-> Unit){
         val nombreCom = usuario.name.first +" "+ usuario.name.last
-        Picasso.get().load(usuario.picture.thumbnail).into(binding.ivFoto)
+        Picasso.get().load(usuario.picture.large).into(binding.ivFoto)
         binding.tvNombre.text = nombreCom
         binding.tvTel.text = usuario.phone
         binding.tvCel.text = usuario.cell
